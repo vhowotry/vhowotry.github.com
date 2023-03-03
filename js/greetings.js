@@ -22,7 +22,7 @@ function handleDeleteName() {
 function showGreeting() {
   const username = localStorage.getItem(USERNAMEKEY);
   greetingDiv.classList.remove(HIDDEN_CLASSNAME);
-  greeting.innerText = `Hello, ${username}!`;
+  greeting.innerText = `Welcome, ${username}!`;
 }
 const savedUserName = localStorage.getItem(USERNAMEKEY);
 deleteNameBtn.addEventListener("click", handleDeleteName);
